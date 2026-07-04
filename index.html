@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Public support, privacy, and policy pages for Mike Isman's apps.">
+    <title>Mike Isman Apps</title>
+    <link rel="stylesheet" href="/assets/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Mike Isman apps home">
+        <span class="brand-mark">MI</span>
+        <span>Mike Isman Apps</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="weightroom/support.html">Weightroom</a>
+        <a href="parenthub/privacy.html">ParentHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Public App Pages</p>
+          <h1>One repo, many apps.</h1>
+          <p class="lead">
+            Static support, privacy, and policy pages organized by application and ready to publish at clean `github.io` URLs.
+          </p>
+          <div class="actions" aria-label="Page actions">
+            <a class="button" href="weightroom/support.html">Weightroom support</a>
+            <a class="button secondary" href="parenthub/privacy.html">ParentHub privacy</a>
+          </div>
+        </div>
+        <div class="visual" role="img" aria-label="A focused workspace for maintaining public app pages">
+          <div class="visual-panel">
+            <h2>Folder-based URLs</h2>
+            <p>Every app lives at the top level: `/weightroom/`, `/parenthub/`, and whatever comes next.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" aria-labelledby="apps-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Applications</p>
+            <h2 id="apps-title">Public pages by app.</h2>
+          </div>
+          <p>Add more apps by creating another top-level folder and linking it here.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Weightroom</h3>
+            <p><strong>/weightroom/support.html</strong> is ready for app store support links and public help content.</p>
+            <a class="text-link" href="weightroom/support.html">Open support page</a>
+          </article>
+          <article class="card">
+            <h3>ParentHub</h3>
+            <p><strong>/parenthub/privacy.html</strong> is ready for privacy-policy review and public linking.</p>
+            <a class="text-link" href="parenthub/privacy.html">Open privacy page</a>
+          </article>
+          <article class="card">
+            <h3>Shared assets</h3>
+            <p><strong>/assets/</strong> keeps the design consistent while each app owns its own pages.</p>
+            <a class="text-link" href="README.md">Read setup notes</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="metrics-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">URL shape</p>
+            <h2 id="metrics-title">Clean paths from plain folders.</h2>
+          </div>
+        </div>
+        <div class="metrics">
+          <div class="metric"><b>2</b>app folders</div>
+          <div class="metric"><b>3</b>public pages</div>
+          <div class="metric"><b>1</b>shared stylesheet</div>
+          <div class="metric"><b>0</b>deploy dependencies</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span data-current-year></span> Mike Isman</span>
+      <span>Built for GitHub Pages</span>
+    </footer>
+    <script src="/assets/site.js"></script>
+  </body>
+</html>
